@@ -26,8 +26,8 @@ jobs:
 
     - name: Commit and push changes
       run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "om051105"
+        git config --global user.email "99085886+om051105@users.noreply.github.com"
         git add README.md
         git commit -m "Auto-commit: Daily streak update" || echo "No changes to commit"
         git push
